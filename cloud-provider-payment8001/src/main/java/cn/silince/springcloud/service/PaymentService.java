@@ -1,7 +1,7 @@
 package cn.silince.springcloud.service;
 
-import cn.silince.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Param;
+import cn.silince.springcloud.entities.Payment;
 
 public interface PaymentService {
     /**

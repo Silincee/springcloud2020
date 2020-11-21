@@ -1,11 +1,12 @@
 package cn.silince.springcloud.controller;
 
-import cn.silince.springcloud.entities.CommonResult;
-import cn.silince.springcloud.entities.Payment;
+
 import cn.silince.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import cn.silince.springcloud.entities.CommonResult;
+import cn.silince.springcloud.entities.Payment;
 
 /**
  * @program: cloud2020
@@ -21,7 +22,7 @@ public class PaymentController {
     private PaymentService paymentService;
 
     @PostMapping(value = "/payment/create")
-    public CommonResult create(Payment payment) {
+    public CommonResult create(@RequestBody Payment payment) {
         int result = paymentService.create(payment);
         log.info("****插入结果"+result);
 

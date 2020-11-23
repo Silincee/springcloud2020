@@ -38,6 +38,6 @@ public class PaymentServiceImpl implements PaymentService {
     }
 
     public String paymentInfo_TimeOutHandler(Integer id) {
-        return "线程池: "+ Thread.currentThread().getName()+"  paymentInfo_TimeOutHandler: "+id+"\t" + "😈Here is TimeOutHandler";
+        return "线程池: "+ Thread.currentThread().getName()+"  系统繁忙,请稍后再试: "+id+"\t" + "😈Here is TimeOutHandler";
     }
 }

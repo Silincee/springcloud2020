@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e50a20-214f-4a9e-9050-3d5a439cba8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/cn/silince/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/cn/silince/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/cn/silince/springcloud/controller/OrderFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/cn/silince/springcloud/controller/OrderFeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/cn/silince/springcloud/controller/OrderFeignController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/cn/silince/springcloud/controller/OrderFeignController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +227,7 @@
       <workItem from="1605881812712" duration="17507000" />
       <workItem from="1606045235767" duration="11196000" />
       <workItem from="1606120084362" duration="580000" />
-      <workItem from="1606123290891" duration="1756000" />
+      <workItem from="1606123290891" duration="2380000" />
     </task>
     <servers />
   </component>

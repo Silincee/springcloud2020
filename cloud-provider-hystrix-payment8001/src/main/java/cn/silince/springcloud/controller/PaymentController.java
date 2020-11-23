@@ -1,4 +1,4 @@
-package cn.silince.springcloud.service.controller;
+package cn.silince.springcloud.controller;
 
 import cn.silince.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;

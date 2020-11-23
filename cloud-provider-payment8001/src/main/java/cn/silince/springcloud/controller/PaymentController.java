@@ -12,6 +12,7 @@ import cn.silince.springcloud.entities.CommonResult;
 import cn.silince.springcloud.entities.Payment;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @program: cloud2020
@@ -82,6 +83,16 @@ public class PaymentController {
     */
     @GetMapping(value = "/payment/lb")
     public String getPaymentLB(){
+        return serverPort;
+    }
+
+    /**
+    * @description: 服务提供方8001故意写暂停程序
+    */
+    @GetMapping(value = "/payment/feign/timeout")
+    public String paymentFeignTimeout(){
+        try {
+            TimeUnit.SECONDS.sleep(3);} catch (InterruptedException e) {e.printStackTrace();}
         return serverPort;
     }
 }

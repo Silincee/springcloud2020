@@ -1,5 +1,6 @@
 package cn.silince.springcloud.controller;
 
+import cn.hutool.core.util.IdUtil;
 import cn.silince.springcloud.service.PaymentHystrixService;
 import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
@@ -28,6 +29,7 @@ public class OrderHystrixController {
     public String paymentInfo_OK(@PathVariable("id") Integer id){
         return paymentHystrixService.paymentInfo_OK(id);
     }
+/*******服务降级*********/
 
     @GetMapping("/consumer/payment/hystrix/timeout/{id}")
 //    @HystrixCommand // 使用defaultFallback = "payment_Global_FallbackMethod"
@@ -46,5 +48,7 @@ public class OrderHystrixController {
     public String payment_Global_FallbackMethod(){
         return "😈here is defaultFallback = payment_Global_FallbackMethod";
     }
+
+
 
 }

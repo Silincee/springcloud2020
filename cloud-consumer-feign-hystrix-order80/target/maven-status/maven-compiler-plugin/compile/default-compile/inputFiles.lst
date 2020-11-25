@@ -1,0 +1,4 @@
+/Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-feign-hystrix-order80/src/main/java/cn/silince/springcloud/OrderHystrixMain80.java
+/Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-feign-hystrix-order80/src/main/java/cn/silince/springcloud/service/PaymentFallbackService.java
+/Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-feign-hystrix-order80/src/main/java/cn/silince/springcloud/controller/OrderHystrixController.java
+/Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-feign-hystrix-order80/src/main/java/cn/silince/springcloud/service/PaymentHystrixService.java

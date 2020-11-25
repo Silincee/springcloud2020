@@ -1,6 +1,6 @@
 package cn.silince.springcloud.controller;
 
-import cn.hutool.core.util.IdUtil;
+
 import cn.silince.springcloud.service.PaymentHystrixService;
 import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;

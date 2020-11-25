@@ -1,0 +1,4 @@
+/Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-feign-order80/src/main/java/cn/silince/springcloud/controller/OrderFeignController.java
+/Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-feign-order80/src/main/java/cn/silince/springcloud/service/PaymentFeignService.java
+/Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-feign-order80/src/main/java/cn/silince/springcloud/OrderFeignMain80.java
+/Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-feign-order80/src/main/java/cn/silince/springcloud/config/FeignConfig.java

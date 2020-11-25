@@ -1,3 +1,6 @@
 /Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-order80/src/main/java/cn/silince/springcloud/config/ApplicationContextConfig.java
 /Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-order80/src/main/java/cn/silince/springcloud/controller/OrderController.java
+/Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-order80/src/main/java/cn/silince/springcloud/lb/MyLb.java
+/Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-order80/src/main/java/cn/silince/myrule/MySelfRule.java
 /Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-order80/src/main/java/cn/silince/springcloud/OrderMain80.java
+/Users/silince/Develop/MagicDontTouch/IdeaProjects/cloud2020/cloud-consumer-order80/src/main/java/cn/silince/springcloud/lb/LoadBalancer.java

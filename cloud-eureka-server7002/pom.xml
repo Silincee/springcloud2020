@@ -18,7 +18,7 @@
         <!--            <artifactId>spring-cloud-starter-eureka</artifactId>-->
         <!--        </dependency>-->
 
-        <!--    eureka-server    现在的版本 springcloud(H版)-->
+        <!--    eureka-server    现在的版本 cn.silince.springcloud(H版)-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>

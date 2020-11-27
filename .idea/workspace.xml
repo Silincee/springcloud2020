@@ -56,7 +56,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -68,16 +68,16 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.silince.springcloud.controller" />
-      <recent name="cn.silince.springcloud.config" />
       <recent name="cn.silince.springcloud" />
+      <recent name="cn.silince.springcloud.config" />
       <recent name="springcloud" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/resources" />
+      <recent name="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cloud-config-client-3366/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,10 +97,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentMain9001">
+  <component name="RunManager" selected="Spring Boot.OrderNacosMain83">
     <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-client-3355" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.silince.springcloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client-3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.silince.springcloud.ConfigClientMain3366" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,14 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server7002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.silince.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.silince.springcloud.EurekaMain7002" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,6 +182,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderNacosMain83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-consumer-nacos-order83" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.silince.springcloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.silince.springcloud.alibaba.OrderNacosMain83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-hystrix-payment8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.silince.springcloud.PaymentHystrixMain8001" />
@@ -220,7 +234,7 @@
       <module name="cloudalibaba-provider-payment9001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.silince.springcloud.*" />
+          <option name="PATTERN" value="cn.silince.springcloud.alibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,15 +243,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-stream-rabbitmq-provider8801" />
+    <configuration name="PaymentMain9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9002" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.silince.springcloud.*" />
+          <option name="PATTERN" value="cn.silince.springcloud.alibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.silince.springcloud.StreamMQMain8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.silince.springcloud.PaymentMain9002" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,7 +260,7 @@
       <module name="cloud-stream-rabbitmq-consumer8802" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.silince.springcloud.*" />
+          <option name="PATTERN" value="cn.silince.springcloud.alibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,7 +273,7 @@
       <module name="cloud-stream-rabbitmq-consumer8803" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.silince.springcloud.*" />
+          <option name="PATTERN" value="cn.silince.springcloud.alibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderNacosMain83" />
+        <item itemvalue="Spring Boot.PaymentMain9002" />
         <item itemvalue="Spring Boot.PaymentMain9001" />
         <item itemvalue="Spring Boot.StreamMQMain8803" />
         <item itemvalue="Spring Boot.StreamMQMain8802" />
-        <item itemvalue="Spring Boot.StreamMQMain8801" />
-        <item itemvalue="Spring Boot.EurekaMain7002" />
       </list>
     </recent_temporary>
   </component>
@@ -291,6 +305,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.22690992" />
           <treeState>
             <expand>
               <path>
@@ -332,7 +347,7 @@
       <workItem from="1606270964580" duration="307000" />
       <workItem from="1606286394709" duration="5075000" />
       <workItem from="1606312884511" duration="1880000" />
-      <workItem from="1606443315233" duration="7670000" />
+      <workItem from="1606443315233" duration="9449000" />
     </task>
     <servers />
   </component>

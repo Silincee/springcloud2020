@@ -95,4 +95,12 @@ public class PaymentController {
             TimeUnit.SECONDS.sleep(3);} catch (InterruptedException e) {e.printStackTrace();}
         return serverPort;
     }
+    
+    /** 
+    * @description: zipkin链路调用测试
+    */
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        return "Here is payment zipkin server fall back😈";
+    }
 }

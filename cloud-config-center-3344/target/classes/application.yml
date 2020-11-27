@@ -9,8 +9,8 @@ spring:
       server:
         git:
           uri: https://github.com/Silincee/springcloud-config.git #GitHub上面的git仓库名字
-          username: Silincee
-          password: QQqq4122913
+          username:
+          password:
         ####搜索目录
           search-paths:
             - cn.silince.springcloud-config

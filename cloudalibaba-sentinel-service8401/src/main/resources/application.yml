@@ -12,14 +12,14 @@ spring:
       transport:
         dashboard: localhost:8080 #配置Sentinel dashboard地址
         port: 8719 # 默认8719端口，加入被占用会从8719开始依次+1扫描，直至找到为被占用饿的端口
-#      datasource:
-#        ds1:
-#          nacos:
-#            server-addr: localhost:8848
-#            dataId: cloudalibaba-sentinel-service
-#            groupId: DEFAULT_GROUP
-#            data-type: json
-#            rule-type: flow
+      datasource:
+        ds1:
+          nacos:
+            server-addr: localhost:8848
+            dataId: cloudalibaba-sentinel-service
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
 
 management:
   endpoints:
@@ -27,8 +27,8 @@ management:
       exposure:
         include: '*'
 
-#feign:
-#  sentinel:
-#    enabled: true # 激活Sentinel对Feign的支持
+feign:
+  sentinel:
+    enabled: true # 激活Sentinel对Feign的支持
 
 

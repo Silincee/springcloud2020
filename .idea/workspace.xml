@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e50a20-214f-4a9e-9050-3d5a439cba8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/file.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/cn/silince/springcloud/alibaba/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/cn/silince/springcloud/alibaba/service/StorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/cn/silince/springcloud/alibaba/dao/StorageDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-account-service2003/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-account-service2003/target/classes/file.conf" beforeDir="false" afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/file.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service2001/src/main/java/cn/silince/springcloud/alibaba/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/cn/silince/springcloud/alibaba/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service2001/src/main/java/cn/silince/springcloud/alibaba/service/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/cn/silince/springcloud/alibaba/service/StorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service2001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service2001/target/classes/cn/silince/springcloud/alibaba/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/cn/silince/springcloud/alibaba/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service2001/target/classes/cn/silince/springcloud/alibaba/service/StorageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/cn/silince/springcloud/alibaba/service/StorageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service2001/target/classes/file.conf" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/file.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-storage-service2002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-storage-service2002/target/classes/file.conf" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/file.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-config" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-config/config-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config/config-dev.yml" afterDir="false" />
@@ -412,7 +413,7 @@
       <workItem from="1606270964580" duration="307000" />
       <workItem from="1606286394709" duration="5075000" />
       <workItem from="1606312884511" duration="1880000" />
-      <workItem from="1606443315233" duration="31718000" />
+      <workItem from="1606443315233" duration="36458000" />
     </task>
     <servers />
   </component>
